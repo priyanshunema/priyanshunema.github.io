@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="../CSS/mocks.css" rel='stylesheet'>
+    <link rel="icon" href="../Images/pps.jpg">
+    <title>Home</title>
+</head>
+<body>
+    <a href="first.html"><img src="../Images/ppscrop.png" class='Img1'></a>
+    <br><br>
+    <form action="sucsesstest.html" required>
+        <input type="text" placeholder="Name" class='name1 name3' name='fname'>
+        <input type="email" placeholder="Mail Id" class='name1 name3' name='fname'>
+        <br><br>
+        <div>    
+            <label>Q1.What is the first Programming Language</label><br>
+            <input type="radio" name='Q1'value="C">C<br>
+            <input type="radio" name='Q1'value="CPP">CPP<br>
+            <input type="radio" name='Q1' value="Python">Python<br>
+        </div>
+        <br>
+
+
+        <div>    
+            <label>Q2. Who Make C Language</label><br>
+            <input type="radio" name='Q2' value='DR'>Danies Ritche's<br>
+            <input type="radio" name='Q2' value='GVR'>Gudo van Rousam<br>
+            <input type="radio" name='Q2' value="BS">Bjarne Stroustrup<br>
+        </div>
+        <br>
+        <div>    
+            <label>Q3. C is a</label><br>
+            <input type="radio" name='Q3' value='POP'>POPs Language<br>
+            <input type="radio" name='Q3' value="OOPS">OOPs Language <br>
+            <input type="radio" name='Q3' value="HLL">High Level Language<br>
+            <input type="radio" name='Q3' value="LLL">Low Level Language<br>
+        </div>
+        <br>
+        <div>    
+            <label>Q4. Conditional Statement is :-</label><br>
+            <input type="radio" name='Q4' value="IF">if..else<br>
+            <input type="radio" name='Q4' value="FOR">for<br>
+            <input type="radio" name='Q4' value="STRC">Structure<br>
+            <input type="radio" name='Q4' value="CLS">Class<br>
+        </div>
+        <br>
+        <div>    
+            <label>Q5. Tick Correct Loops :-</label><br>
+            <input type="checkbox" name='Q5' value="A1">while<br>
+            <input type="checkbox" name='Q5' value="A2">for<br>
+            <input type="checkbox" name='Q5' value="Swch">Switch<br>
+            <input type="checkbox" name='Q5' value="A3">do-while<br>
+        </div>
+        <button class='disbut1 disbut' onclick="Qfirst()">Check Score</button>
+        <!-- <input type="submit" class='disbut' onclick="Qfirst()"> -->
+        
+        <div id="Marksheet">
+            <table>
+                <tr>
+                    <td id="username1"></td>
+                    <td id="username2"></td>
+                </tr>
+                <tr>
+                    <td id="usermail1"></td>
+                    <td id="usermail2"></td>
+                </tr>
+                <tr>
+                    <td id="usertotal1"></td>
+                    <td id="usertotal2"></td>
+                </tr>
+                <tr>
+                    <td id="userscore1"></td>
+                    <td id="userscore2"></td>
+                </tr>
+            </table>
+        </div>
+
+        <button class='btnsub'>Submit</button>
+    </form>
+    <script src="../jjava script/mocktest.js"></script>
+</body>
+</html>

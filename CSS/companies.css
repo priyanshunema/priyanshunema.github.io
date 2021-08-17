@@ -1,0 +1,32 @@
+body{
+    background-image: linear-gradient(rgb(255, 0, 76),tomato,orange);
+}
+.CompIMG{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 50px;
+}
+
+.imgcomp{
+    border: rgb(251, 255, 0) solid 2px;
+    height: 250px;
+    width: auto;
+    border-radius: 50%;
+    margin-top: 15px;
+    padding: 0px;
+}
+h1{
+    color: rgb(238, 255, 0);
+    text-align: center;
+    font-size: 50px;
+    margin-top: 50px;
+    
+}
+
+#morecomp{
+    position: relative;
+    margin-top: 120px;
+    font-size: 75px;
+    color: rgb(8, 21, 80);
+}

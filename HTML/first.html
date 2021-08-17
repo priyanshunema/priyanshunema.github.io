@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="../CSS/css1.css" rel='stylesheet'>
+    <link rel="icon" href="../Images/pps.jpg">
+    <title>Home</title>
+</head>
+<body>
+    <nav class='nav1'>
+        
+        <span class='main'>
+            <ul>
+                <a href="first.html" ><img src="../Images/ppscrop.png" class='Img1'></a>
+                <li><a href="first.html" >Home</a></li>
+                <li><a href="compaies.html">Companies</a></li>
+                <li><a href="Mock.html">Mock Test</a></li>
+                <li><a href="#contactusnow">Contact Us</a></li>
+                <li><a href="Aboutus.html" >About Us</a></li>
+            </ul>
+        </span>
+    </nav>
+    <header>
+        <div class='homeimg'>
+            <div class='innerimg'>
+                <div id='welcome'>
+             Hello, Welcome to PRIYANSHU Placement Solution
+                </div>    
+                <div id='freeclass'>
+            <a href="https://www.youtube.com/channel/UCLDd38JCGIhoxG7EkvxcwNw" id='fclass'> For Free Classes </a>
+                </div>
+            </div>
+        </div>
+
+        <div class="datatable">
+            <span id="tranding">Trending on PRIYANSHU Placement Solution</span>
+            <table id='Arrange'>
+                <tr>
+                    <td><a href="https://www.youtube.com/playlist?list=PL1dquQLapJ_DKz0q2nyKLLN2EjX86n3Gv">Accenture Pseudocode   </a></td>
+                    <td><a href="https://www.youtube.com/playlist?list=PL1dquQLapJ_DKz0q2nyKLLN2EjX86n3Gv">Accenture Apti-Resoning</a></td>
+                    <td><a href="https://www.youtube.com/playlist?list=PL1dquQLapJ_DKz0q2nyKLLN2EjX86n3Gv">Accenture Coding       </a></td>
+                </tr>
+                <tr>
+                    <td><a href="https://www.youtube.com/watch?v=gojtlV8xdtU&list=PL1dquQLapJ_ChJier_BLp5gQYcICF3tKa">Capgemini Pseudocode</a></td>
+                    <td><a href="https://www.youtube.com/watch?v=gojtlV8xdtU&list=PL1dquQLapJ_ChJier_BLp5gQYcICF3tKa">Capgemini Data Structure</a></td>
+                    <td><a href="https://www.youtube.com/watch?v=gojtlV8xdtU&list=PL1dquQLapJ_ChJier_BLp5gQYcICF3tKa">Capgemini Game Based</a></td>
+                </tr>
+                <tr>
+                    <td><a href="https://www.youtube.com/playlist?list=PL1dquQLapJ_DlN5RIt-uXeSf7QycHMWwW">Infosys Preparation Material</a></td>
+                    <td><a href="https://www.youtube.com/watch?v=RcJtKPoErg8&list=PL1dquQLapJ_AUDaBEH4vUDITS7BqISuTw">Cognizant Preparation</a></td>
+                    <td><a href="https://www.youtube.com/watch?v=l0jyq8V0ZYQ&list=PL1dquQLapJ_Cl7G_STB63td3Yu4Z3wxA6">Tech Mahindra</a></td>
+                </tr>
+            </table>
+        </div>
+    </header>
+
+   
+
+<footer class='mainfoot'>
+    <div id='footer1st'>
+        <img src="../Images/ppscrop.png" alt="Source not found" class='Img1 Imgfoot'>
+    </div>
+    <div class='foot  foot2'>
+        <section  id="contactusnow"></section>
+        <h1 id="Contact">Contact Us</h1>
+        <form action="sucsess.html" >
+            <input type="text" class='inptxt' placeholder="Full Name" id='changenull'>
+            <input type="email" class='inptxt' placeholder="Email Address" >
+            <input type="text" class='inptxt' placeholder="Message" >
+            <input type="number" class='inptxt' placeholder="Mobile Number"  min="999999999" max="9999999999" >
+            <br>
+            <input type="checkbox" >
+        <span id='check'>
+             I would like to recive update from Priyanshu Placement Solution    
+        </span>
+        <br>
+            <input type="submit" name="Submit" id='submitbtn' onclick="changetonull()">
+        </form>
+        <div class='foot foot1'>
+            <!-- <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sapiente iste nulla, officia dolorum voluptas totam omnis laboriosam ad quidem soluta!
+            </p> -->
+            <img src="../Images/gmail.png" alt="Gmail" id='cimg'>
+            <!-- <img src="../Images/linkedin.png" alt="Linked" id='cimg'> -->
+            <img src="../Images/whatsapp.png" alt="Whatsapp" id='cimg'>
+            <img src="../Images/telegram.png" alt="Telegram" id='cimg'>
+            <img src="../Images/youtubetrans.png" alt="YouTube" id='cimg'>
+        </div>
+    </div>
+</footer>
+
+<script>
+    let apna = document.getElementsByClassName('inptxt');
+    function changetonull(){
+        for (i of apna){ i.value=null; }    
+    }
+</script>
+
+</body>
+</html>

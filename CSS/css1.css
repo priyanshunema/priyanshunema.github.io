@@ -1,0 +1,260 @@
+/* body{background-color: rgb(255, 228, 139);} */
+.Img1{
+    height: 50px;
+    margin: 10px;
+    float: left;
+}
+
+.nav1{
+    /* background-color: rgb(0, 225, 255);
+    height: 200px; */
+    margin-top: 25px;
+}
+ul{
+    display: flex;
+    background-color: rgb(248, 248, 255);
+    justify-content:space-around;
+    margin: 0px;
+    padding: 0px;
+    /* border-top-left-radius: 2000px;
+    border-bottom-right-radius:2000px ; */
+    border-radius: 50px;
+}
+li{
+    list-style: none;
+    align-self: center;
+    font-size: 25px;
+    font-weight: bold;
+    /* border:sienna solid 2px; */
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-style:oblique;
+    font-variant: small-caps;
+    border-radius: 50px;
+    padding: 10px;
+}
+
+
+
+
+li:hover{
+    border-right: 8px rgb(255,140,0) solid;
+    border-left: 8px rgb(255,140,0) solid;
+    transition-duration: 200ms;
+}
+
+/* Footers */
+
+
+.mainfoot{
+    /* border: solid 5px red; */
+    width: 98%;
+    margin: 0;
+    padding: 0;
+    border-radius: 20px;
+    background-image: url("../Images/B1.jpg");
+}
+
+.foot{
+    /* border:solid gray 5px; */
+    width: 70%;
+    margin: auto;
+    padding-top: 20px;
+}
+
+/* footer2 */
+.foot2{
+    background-image: url("../Images/B4.jpg") ;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 20px;
+    text-align: center;
+  
+}
+/* footer2 Contact Us  */
+#Contact{
+    margin: 0px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    color: palegoldenrod;
+    font-size: 50px;
+
+}
+.inptxt{
+    font-size: 30px;
+    width: 500px;
+    padding-top: 10px;
+    margin-top: 10px;
+    border-radius: 50px;
+    text-decoration: none;
+    background-color: ivory;
+    outline: none;
+    padding-left: 35px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;    
+}
+::placeholder{
+    color: red;
+    padding-left: 10px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    
+}
+#check{
+    color: rgb(248, 248, 255);
+    font-weight: bold;    
+}
+#submitbtn{
+    margin-top: 40px;
+    font-size: 30px;
+    background-image: url("../Images/B2.jpg");
+    font-weight: bold;
+    color:rgb(14, 78, 5);
+    padding: 5px;
+
+}
+#submitbtn:hover{
+    background-image: url("../Images/b9.jpg");
+    color:red;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+/* Footer1  Social media Icons*/
+#cimg{
+    width: 80px;
+    margin-right: 50px;
+}
+/* Main BOdy of Home Page  */
+
+
+.homeimg{
+    background-image: url('../Images/b8.jpg');
+   border:2px rgb(0, 238, 255) solid;
+    height: 550px;
+    border-radius: 10px;
+    
+}
+#welcome,#freeclass{
+    /* background-color: cornsilk; */
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+.innerimg{
+ 
+    text-align: center;
+    padding:10px ;
+    margin-top: 150px;
+}
+#welcome{
+    font-size: 40px;
+    margin-top: 0px;
+    font-weight: bold;
+    color: rgb(255, 0, 34);
+    
+}
+#freeclass{
+    background-image: linear-gradient(blue,black);
+    font-weight: bold;
+    color :wheat;
+    font-size: 25px;
+    padding: 5px;
+    margin-top: 130px;
+    margin-left: 500px;
+    position: relative;
+    width: 250px;
+}
+
+/* Tranding by usss */
+.datatable
+{
+    margin: 50px;
+}
+#tranding{
+    font-size: 45px;
+    color: blue;
+    font-weight: bold;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+
+}
+td{
+    width: auto;
+    background-color: rgba(238, 255, 0, 0.356);
+    font-size: 30px;
+    padding: 20px;
+    text-align: center;
+    font-weight: bold;
+    border:white solid 5px;
+    border-radius: 50px;
+}
+
+a{text-decoration: none;}
+/* Now we Implement link in all places */
+
+#fclass{
+    color:yellow;
+}
+#freeclass:hover,#fclass:hover{
+    background-image: linear-gradient(yellow,red,rgb(14, 0, 0));
+    color: lightblue
+}
+
+td>a:link{
+    color: teal;
+}
+
+td:hover{  
+    background-color: rgba(60, 255, 0, 0.404);
+}
+td>a:hover{
+    color: indigo;
+}
+a:visited{
+    color: teal;
+}
+
+
+.main>ul>li>a:hover{
+    color:lawngreen
+
+}
+
+
+main>ul>li>a:link{
+    
+    color: teal;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+def FinNumbwrOfSuperiorElements(arr,n):
+    a=arr
+    n=len(a)
+    c=1
+    k=a[n-1]
+    for i in range(n-1,-1,-1):
+        if k<a[i]:
+            k=a[i]
+            c+=1
+    return c
+
+
+
+
+    def MatchString(str1,str2,k1,k2):
+    a=str1[k1:]
+    b=str2[k2:]
+    if a==b:
+        return len(a)
+    else:
+        return -1
+
+
+
+
